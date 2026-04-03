@@ -280,6 +280,14 @@ section {
   letter-spacing: 0.04em;
 }
 
+.project-img {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 1px solid var(--line);
+}
+
 ul {
   padding-left: 1.1rem;
 }
